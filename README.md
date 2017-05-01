@@ -49,6 +49,8 @@ powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
 PROCESS_PAUSE();
 
 
-<b>Step 6) </b> Run Cooja simulation
+<b>Step 6) </b>
+
+Run Cooja simulation
 
 *If you have problems with MSPSIM running Cooja the first time, download the MSPSIM folder from Contiki's Git Hub and paste the files in Contiki/tools/MSPSIM*
