@@ -61,6 +61,13 @@ powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
 
 PROCESS_PAUSE();
 
+In the Makefile you have to add:
+
+TARGET_LIBFILES += -lm
+
+and also:
+
+APPS += powertrace
 
 <b>Step 6) </b>
 
