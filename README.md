@@ -9,26 +9,36 @@ This is a portion of code used to implement a Solution named: Neutral Operation 
 
 
 <b>Step 1) </b> 
+
 Download Instant Contiki
+
 https://sourceforge.net/projects/contiki/files/Instant%20Contiki/
 
 <b>Step 2) </b> 
+
 Download or clone our git hub project 
 
 <b>Step 3) </b> 
+
 Run the downloaded Instant Contiki Virtual Machine</b>
 
 <b>Step 4) </b> 
+
 Replace the apps/powertrace files in the original Contiki by the ones provided in our git hub project</b>
 
 <b>Step 5) </b> 
+
 To run an example, replace the examples/er-rest-example files in the original Contiki by the ones provided in our git hub project
+
 
 If you want to use the our powertrace in other application code, you just have to add the following include: 
 
+
 #include "powertrace.h"
 
+
 Then, call the following powertrace function inside the PROCESS_BEGIN() code:
+
 
 PROCESS_BEGIN();
 ...
