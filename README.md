@@ -13,7 +13,7 @@ https://sourceforge.net/projects/contiki/files/Instant%20Contiki/
 
 Step 2) Download or clone our git hub project
 
-Step 3) Run the donwloaded Instant Contiki in a Virtual Machine
+Step 3) Run the downloaded Instant Contiki Virtual Machine
 
 Step 4) Replace the apps/powertrace files in the original Contiki by the ones provided in our git hub project
 
