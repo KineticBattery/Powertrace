@@ -14,17 +14,25 @@ Download Instant Contiki
 
 https://sourceforge.net/projects/contiki/files/Instant%20Contiki/
 
+https://vimeo.com/215535613
+
 <b>Step 2) </b> 
 
 Download or clone our git hub project 
+
+https://vimeo.com/215535637
 
 <b>Step 3) </b> 
 
 Run the downloaded Instant Contiki Virtual Machine</b>
 
+https://vimeo.com/215535582
+
 <b>Step 4) </b> 
 
-Replace the apps/powertrace files in the original Contiki by the ones provided in our git hub project</b>
+Replace the apps/powertrace files in the original Contiki by the ones provided in our git hub project
+
+https://vimeo.com/215535658
 
 <b>Step 5) </b> 
 
@@ -52,5 +60,7 @@ PROCESS_PAUSE();
 <b>Step 6) </b>
 
 Run Cooja simulation
+
+https://vimeo.com/215535590
 
 *If you have problems with MSPSIM running Cooja the first time, download the MSPSIM folder from Contiki's Git Hub and paste the files in Contiki/tools/MSPSIM*
