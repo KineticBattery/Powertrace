@@ -18,14 +18,21 @@ Step 3) Run the downloaded Instant Contiki Virtual Machine
 Step 4) Replace the apps/powertrace files in the original Contiki by the ones provided in our git hub project
 
 Step 5) To run an example replace the examples/er-rest-example files in the original Contiki by the ones provided in our git hub project
-If you want to use the our powertrace code in other application code, you just have to add the following commands in your application file: <br>
+
+If you want to use the our powertrace code in other application code, you just have to add the following commands in your application file: 
+
 #include "powertrace.h"
-<br>
+
+
 PROCESS_BEGIN();
+
 ...
+
 powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
+
 ...
-  PROCESS_PAUSE();
+
+PROCESS_PAUSE();
 
 
 Step 6) Run Cooja simulation
