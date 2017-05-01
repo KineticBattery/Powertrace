@@ -18,9 +18,10 @@ Step 3) Run the downloaded Instant Contiki Virtual Machine
 Step 4) Replace the apps/powertrace files in the original Contiki by the ones provided in our git hub project
 
 Step 5) To run an example replace the examples/er-rest-example files in the original Contiki by the ones provided in our git hub project
-If you want to use the our powertrace code in other application code, you just have to add the following commands in your application file: 
+If you want to use the our powertrace code in other application code, you just have to add the following commands in your application file: <br>
 #include "powertrace.h"
-  PROCESS_BEGIN();
+<br>
+PROCESS_BEGIN();
 ...
 powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
 ...
@@ -28,4 +29,5 @@ powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
 
 
 Step 6) Run Cooja simulation
+
 *If you have problems with MSPSIM running Cooja the first time, download the MSPSIM folder from Contiki's Git Hub and paste the files in Contiki/tools/MSPSIM
