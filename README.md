@@ -22,7 +22,7 @@ https://vimeo.com/215535613
 Download or clone our git hub project 
 
 To Watch a short video about this step, open the following link as a new tab:
-https://vimeo.com/215535613
+https://vimeo.com/215535637
 
 
 <b>Step 3) </b> 
