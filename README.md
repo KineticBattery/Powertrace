@@ -15,7 +15,7 @@ Download Instant Contiki
 https://sourceforge.net/projects/contiki/files/Instant%20Contiki/
 
 <p>This is <a href="https://vimeo.com/215535613" target="_blank">a link</a> that opens in a new window.</p>
-
+<a href="http://example.com/" target="_blank">example</a>
 
 <b>Step 2) </b> 
 
