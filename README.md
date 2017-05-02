@@ -49,23 +49,23 @@ To run an example, replace the examples/er-rest-example files in the original Co
 If you want to use the our powertrace in other application code, you just have to add the following include: 
 
 
-#include "powertrace.h"
+```#include "powertrace.h"```
 
 
 Then, call the following powertrace function inside the PROCESS_BEGIN() code:
 
 
-PROCESS_BEGIN();
+```PROCESS_BEGIN();
 ...
 
 powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
 ...
 
-PROCESS_PAUSE();
+PROCESS_PAUSE();```
 
 In the Makefile you have to add:
 
-TARGET_LIBFILES += -lm
+```TARGET_LIBFILES += -lm```
 
 and also:
 
