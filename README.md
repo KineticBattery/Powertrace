@@ -73,9 +73,11 @@ In the Makefile you have to add:
 TARGET_LIBFILES += -lm
 ```
 
-and also:
+and also add in the Makefile:
 
+```
 APPS += powertrace
+```
 
 <b>Step 6) </b>
 
