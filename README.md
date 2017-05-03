@@ -8,7 +8,7 @@ This is a portion of code used to implement a Solution named: Neutral Operation 
 
 Please, fell free to modify the code to your needs and contact me any time to clear doubts or to upload improved versions of this code. ariker(at)dei.uc.pt
 
-![Screenshot](Screen Shot 2017-05-03 at 11.14.06.png)
+![Screenshot](example.png)
 
 <b>Step 1) </b> 
 
