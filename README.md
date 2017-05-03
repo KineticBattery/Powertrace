@@ -9,7 +9,7 @@ This is a portion of code used to implement a Solution named: Neutral Operation 
 
 ```
 @INPROCEEDINGS{riker2017iscc, 
-author={Andre Riker }, 
+author={Riker, Andr{\'e} and and Curado, Marilia and Monteiro, Edmundo},
 booktitle={2017 IEEE Symposium on Computers and Communication (ISCC)}, 
 title={Neutral Operation of the Minimum Energy Node in Energy-Harvesting Environments}, 
 year={2017}, 
