@@ -1,4 +1,5 @@
-# Powertrace with Kibam Battery model
+# PowertraceK
+## It is the Powertrace with Kibam Battery model
 
 This code we added the Kinetic Battery model in the original Powertrace tool. So, it is possible to know periodically the remaining energy in the nodes. In harvesting or non-harvesting scenarios, the kinetic model is useful to measure the nodes' lifetime and/or the non-linear residual energy.
 
