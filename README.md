@@ -7,6 +7,8 @@ The PowertraceK code has been tested on COOJA - Contiki.
 
 This is a portion of code used to implement a Solution named: Neutral Operation of the Minimum Energy Node in Energy-Harvesting Environments. This work has been accepted in ISCC 2017, soon it will be in ieeexplorer.
 
+
+Please, use the following bibtex entry to cite in our paper.
 ```
 @INPROCEEDINGS{riker2017iscc, 
 author={Riker, Andr{\'e} and and Curado, Marilia and Monteiro, Edmundo},
@@ -14,7 +16,7 @@ booktitle={2017 IEEE Symposium on Computers and Communication (ISCC)},
 title={Neutral Operation of the Minimum Energy Node in Energy-Harvesting Environments}, 
 year={2017}, 
 pages={1-6},  
-month={July},}
+month={July}}
 ```
 
 
