@@ -7,7 +7,7 @@
 
 This code we added the Kinetic Battery model in the original Powertrace tool. So, it is possible to know periodically the remaining energy in the nodes. In harvesting or non-harvesting scenarios, the kinetic model is useful to measure the nodes' lifetime and/or the non-linear residual energy.
 
-The PowertraceK code has been tested on COOJA - Contiki.
+The PowertraceK code has been developed and tested on COOJA - Contiki.
 
 This is a portion of code used to implement a Solution named: Neutral Operation of the Minimum Energy Node in Energy-Harvesting Environments. This work has been accepted in ISCC 2017, soon it will be in ieeexplorer.
 
@@ -24,7 +24,7 @@ month={July}}
 ```
 
 
-Please, fell free to modify the code to your needs and contact me any time to clear doubts or to upload improved versions of this code. ariker(at)dei.uc.pt
+Please, feel free to modify the code to your needs and contact me any time to clear doubts or to upload improved versions of this code. My contact is ariker(at)dei.uc.pt
 
 ![Screenshot](example.png)
 
