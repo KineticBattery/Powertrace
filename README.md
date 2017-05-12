@@ -27,7 +27,9 @@ month={July}}
 Citation for non-latex users:
 
 ```
-A. Riker, M. Curado, and E. Monteiro, “Neutral Operation of the Minimum Energy Node in Energy-Harvesting Environments,” in 2017 IEEE Symposium on Computers and Communications (ISCC), IEEE, July 2017, pp. 1–6.
+A. Riker, M. Curado, and E. Monteiro, 
+“Neutral Operation of the Minimum Energy Node in Energy-Harvesting Environments,” 
+in 2017 IEEE Symposium on Computers and Communications (ISCC), IEEE, July 2017, pp. 1–6.
 ```
 
 
