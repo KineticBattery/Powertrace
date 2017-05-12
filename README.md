@@ -4,8 +4,9 @@
 ### Features of PowertraceK:
 ###  1. It measures the energy consumption in Receive, Transmit, Low power and idle.
 ###  2. It provides the remaining energy in the battery of each node.
+###  3. It can be easily used for energy-harvesting nodes, where there is a charging electrical current.
 
-This code we added the Kinetic Battery model in the original Powertrace tool. So, it is possible to know periodically the remaining energy in the nodes. In harvesting or non-harvesting scenarios, the kinetic model is useful to measure the nodes' lifetime and/or the non-linear residual energy.
+This code adds the Kinetic Battery model in the original Powertrace tool. So, it is possible to know periodically the remaining energy in the nodes. In harvesting or non-harvesting scenarios, the kinetic model is useful to measure the nodes' lifetime and/or the non-linear residual energy.
 
 The PowertraceK code has been developed and tested on COOJA - Contiki.
 
