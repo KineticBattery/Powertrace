@@ -114,3 +114,12 @@ To Watch a short video about this step, open the following link as a new tab:
 https://vimeo.com/215535590
 
 *If you have problems with MSPSIM running Cooja the first time, download the MSPSIM folder from Contiki's Git Hub and paste the files in Contiki/tools/MSPSIM*
+
+### Default Settings:
+The default capacity is 1000000 microAh or 1000 mAh.
+
+The default node is Wismote, but it can also be easily changed.
+
+I will make a tutorial showing how to change the battery and the node settings.
+
+Any more questions, please contact me.
