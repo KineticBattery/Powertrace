@@ -35,7 +35,7 @@ in 2017 IEEE Symposium on Computers and Communications (ISCC), IEEE, July 2017, 
 
 Please, feel free to modify the code to your needs and contact me any time to clear doubts or to upload improved versions of this code. My contact is ariker(at)dei.uc.pt
 
-![Screenshot](example.png)
+![Screenshot](figures/example.png)
 
 <b>Step 1) </b> 
 
