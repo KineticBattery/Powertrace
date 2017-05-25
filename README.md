@@ -1,4 +1,4 @@
-## PowertraceK
+# PowertraceK
 #### *It is a Powertrace extension that implements the Kibam Battery model*
 
 ---
@@ -13,6 +13,7 @@
 *[Wiki is online! Here you can find more information!](https://github.com/KineticBattery/Powertrace/wiki)*
 
 ---
+### Some information
 This code adds the Kinetic Battery model in the original Powertrace tool. So, it is possible to know periodically the remaining energy in the nodes. In harvesting or non-harvesting scenarios, the kinetic model is useful to measure the nodes' lifetime and/or the non-linear residual energy.
 
 The PowertraceK code has been developed and tested on COOJA - Contiki.
@@ -42,6 +43,8 @@ in 2017 IEEE Symposium on Computers and Communications (ISCC), IEEE, July 2017, 
 
 Please, feel free to modify the code to your needs and contact me any time to clear doubts or to upload improved versions of this code. My contact is ariker(at)dei.uc.pt
 
+
+### Get Started
 ![Screenshot](figures/example.png)
 
 <b>Step 1) </b> 
