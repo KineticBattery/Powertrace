@@ -1,7 +1,7 @@
 ## PowertraceK
 #### *It is a Powertrace extension that implements the Kibam Battery model*
 
-
+---
 
 |    | Features of PowertraceK                                                                          |
 |----|--------------------------------------------------------------------------------------------------|
