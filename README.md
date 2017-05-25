@@ -1,7 +1,7 @@
 # PowertraceK
 ## It is a Powertrace extension that implements the Kibam Battery model
 
-###  | Features of PowertraceK:
+### N. | Features of PowertraceK:
 -------|-----------
 ###  1. | It measures the energy consumption in Receive, Transmit, Low power and idle.
 ###  2. | It provides the remaining energy in the battery of each node.
