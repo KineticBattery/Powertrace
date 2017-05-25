@@ -1,10 +1,11 @@
 # PowertraceK
 ## It is a Powertrace extension that implements the Kibam Battery model
 
-### Features of PowertraceK:
-###  1. It measures the energy consumption in Receive, Transmit, Low power and idle.
-###  2. It provides the remaining energy in the battery of each node.
-###  3. It can be easily used for energy-harvesting nodes, where there is a charging electrical current.
+### | Features of PowertraceK:
+____ | ______________________
+###  1. | It measures the energy consumption in Receive, Transmit, Low power and idle.
+###  2. | It provides the remaining energy in the battery of each node.
+###  3. | It can be easily used for energy-harvesting nodes, where there is a charging electrical current.
 
 
 *[Wiki is online! Here you can find more information!](https://github.com/KineticBattery/Powertrace/wiki)*
