@@ -1,5 +1,5 @@
 # PowertraceK
-<span style="color:blue"> It is a Powertrace extension that implements the Kibam Battery model  text</span>
+#### *It is a Powertrace extension that implements the Kibam Battery model*
 
 |    | Features of PowertraceK                                                                          |
 |----|--------------------------------------------------------------------------------------------------|
