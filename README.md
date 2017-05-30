@@ -24,7 +24,7 @@ This is a portion of code used to implement a Solution named: Neutral Operation 
 If you use PowertraceK, don't forget to use the following bibtex entry to cite our paper.
 ```
 @INPROCEEDINGS{riker2017iscc, 
-author={Riker, Andr{\'e} and and Curado, Marilia and Monteiro, Edmundo},
+author={Riker, Andr{\'e} and Curado, Marilia and Monteiro, Edmundo},
 booktitle={2017 IEEE Symposium on Computers and Communication (ISCC)}, 
 title={Neutral Operation of the Minimum Energy Node in Energy-Harvesting Environments}, 
 year={2017}, 
@@ -83,7 +83,7 @@ https://vimeo.com/215535658
 To run an example, replace the examples/er-rest-example files in the original Contiki by the ones provided in our git hub project
 
 
-If you want to use the our powertrace in other application code, you just have to add the following include: 
+If you want to use PowertraceK in other application code, you just have to add the following include: 
 
 
 ```
