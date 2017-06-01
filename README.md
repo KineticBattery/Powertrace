@@ -130,6 +130,30 @@ The default capacity is 1000000 microAh or 1000 mAh.
 
 The default node is Wismote, but it can also be easily changed.
 
-I will make a tutorial showing how to change the battery and the node settings.
+### Changing Electrical Current to Run PowertraceK in other Hardware Platform (Skymote, TelosB, ...)
+Someone can ask: "How can I change the default node?"
+
+If you want to use PowertraceK in other node type you have to edit the following line code located at Powertrace/powertrace.c:
+
+```
+// Intiate the struct with the eletrical current values in microA 
+// for the following states: active, low power CPU, Tx and Rx.
+// Current values for Wismote (microA)
+struct energy_states i_energyStt = {0.001200*1000000, 0.000090*1000000, 0.0336*1000000, 0.0185*1000000};
+```
+The values I provide here is compatible with Wismote. 
+
+### Changing the Settings of the Battery:
+To run the PowertraceK, please follow the "Get Started" steps. These steps will show that you have to insert in your application code (among other things) the following lines:
+
+```
+unsigned seconds=60*5;// warning: if this variable is changed, then the kinect variable the count the minutes should be changed
+double fixed_perc_energy = 0.2;// 0 - 1
+unsigned variation = 2;//0 - 99
+
+powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
+```
+The variable "fixed_perc_energy" correspods to the variable that will tell the PowertraceK the percentage of energy the node will start, considering the full battery capacity is 1000000 microAh. For example, setting fixed_perc_energy = 0.2 means that the nodes will be initiated with 20 % of 1000000 microAh = 200000 microAh.
+
 
 Any more questions, please contact me.
