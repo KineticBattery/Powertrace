@@ -179,6 +179,7 @@ powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
 The variable "fixed_perc_energy" correspods to the variable that will tell the PowertraceK the percentage of energy the node will start, considering the full battery capacity is 1000000 microAh. For example, setting fixed_perc_energy = 0.2 means that the nodes will be initiated with 20 % of 1000000 microAh = 200000 microAh.
 
 <b> 2 AA Batteries </b>
+
 Many hardware platforms are designed for 2 AA batteries. To set PowertraceK to a capacity close to 2 AA batteries, you can set:
 
 fixed_perc_energy = 4.0;
