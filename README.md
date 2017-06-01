@@ -13,7 +13,7 @@
 *[Wiki is online! Here you can find more information!](https://github.com/KineticBattery/Powertrace/wiki)*
 
 ---
-*[Here you will find a page similar to this where you can post questions!](https://arikerprojects.wordpress.com/powertracek)
+[Here you will find a page similar to this where you can post questions!](https://arikerprojects.wordpress.com/powertracek)
 ---
 ### Some information
 This code adds the Kinetic Battery model in the original Powertrace tool. So, it is possible to know periodically the remaining energy in the nodes. In harvesting or non-harvesting scenarios, the kinetic model is useful to measure the nodes' lifetime and/or the non-linear residual energy.
@@ -143,7 +143,24 @@ If you want to use PowertraceK in other node type you have to edit the following
 // Current values for Wismote (microA)
 struct energy_states i_energyStt = {0.001200*1000000, 0.000090*1000000, 0.0336*1000000, 0.0185*1000000};
 ```
+
 The values I provide here is compatible with Wismote. 
+
+
+<b> Skymote </b>
+
+Here I found the Skymote electrical current
+http://www.eecs.harvard.edu/~konrad/projects/shimmer/references/tmote-sky-datasheet.pdf)
+
+MCU on, Radio RX 21.8 mA
+MCU on, Radio TX 19.5 mA
+MCU on, Radio off 1800 μA
+MCU standby 51 μA
+
+With these values, the new line code for Skymote is:
+```
+struct energy_states i_energyStt = {0.0018*1000000, 0.000051*1000000, 0.0195*1000000, 0.0218*1000000};
+```
 
 ### Changing the Settings of the Battery:
 To run the PowertraceK, please follow the "Get Started" steps. These steps will show that you have to insert in your application code (among other things) the following lines:
