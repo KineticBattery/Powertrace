@@ -150,11 +150,15 @@ The values I provide here is compatible with Wismote.
 <b> Skymote </b>
 
 Here I found the Skymote electrical current
+
 http://www.eecs.harvard.edu/~konrad/projects/shimmer/references/tmote-sky-datasheet.pdf)
 
 MCU on, Radio RX 21.8 mA
+
 MCU on, Radio TX 19.5 mA
+
 MCU on, Radio off 1800 μA
+
 MCU standby 51 μA
 
 With these values, the new line code for Skymote is:
